@@ -1,4 +1,4 @@
-module goshimon
+module github.com/root-talis/goshimon
 
 go 1.18
 
