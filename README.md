@@ -1,7 +1,7 @@
-# Goshimon - Golang SQL query builder.
+# Amibari - Golang SQL query builder.
 
 
-Goshimon allows you to fluently build SQL queries
+Amibari allows you to fluently build SQL queries
 using an expressive DSL which stays out of the way.
 
 Bear in mind that this is WIP. API may change.
@@ -44,7 +44,7 @@ qb := NewQueryBuilder().
     SetParameter("arg1", 1).
     SetParameter("arg2", "2").
     SetParameter("arg3", 3).
-    SetParameter("arg4", []string{"4", "5"}). // yep, goshimon supports slices for IN parameters :)
+    SetParameter("arg4", []string{"4", "5"}). // yep, amibari supports slices for IN parameters :)
     SetParameter("arg5", 5.5).
     SetParameter("arg6", 6.6)
 
@@ -87,7 +87,7 @@ You may want to keep in mind we have these methods:
 Gotta support other formats too.
 
 ## What was the name again?
-"Goshimon" (「ご諮問」). Stands for "Your inquiry (sir/ma'am)".
+"Amibari" (編み針) - stands for "knitting needle".
 
 ### Inspiration?
 Doctrine DBAL QueryBuilder.

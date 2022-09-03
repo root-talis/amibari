@@ -1,4 +1,4 @@
-package goshimon
+package amibari
 
 import (
 	"github.com/stretchr/testify/assert"
